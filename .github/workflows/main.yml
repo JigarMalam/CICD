@@ -21,10 +21,6 @@ jobs:
           username: ${{ secrets.EC2_USERS }}
           key: ${{ secrets.EC2_PASS }}
           port: 22
-          script: |
-            whoami
-            pwd
-            ls -al
-            mkdir Jigar
-            
+          source: "index.html"
+          target: /home/ubuntu
           
