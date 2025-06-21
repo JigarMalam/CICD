@@ -19,7 +19,7 @@ jobs:
       with:
           host: ${{ secrets.EC2_JIGAR }}
           username: ${{ secrets.EC2_USERS }}
-          key: $ {{ secrets.EC2_PASS }}
+          key: ${{ secrets.EC2_PASS }}
           port: 22
           script: |
             whoami
