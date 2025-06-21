@@ -21,6 +21,6 @@ jobs:
           username: ${{ secrets.EC2_USERS }}
           key: ${{ secrets.EC2_PASS }}
           port: 22
-          source: "index.html"
+          source: ./.
           target: /home/ubuntu/Jigar
           
