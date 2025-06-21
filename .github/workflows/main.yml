@@ -17,7 +17,7 @@ jobs:
     - name: Execute remote SSH commands using SSH
       uses: appleboy/ssh-action@v1
       with:
-          host: ${{ secrets.HOST }}
+          host: ${{ secrets.EC2_JIGAR }}
           username: ${{ secrets.EC2_USERS }}
           key: $ {{ secrets.EC2_PASS }}
           port: 22
