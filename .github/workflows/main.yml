@@ -22,5 +22,5 @@ jobs:
           key: ${{ secrets.EC2_PASS }}
           port: 22
           source: "index.html"
-          target: /home/ubuntu
+          target: /home/ubuntu/Jigar
           
